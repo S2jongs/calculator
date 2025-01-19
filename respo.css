@@ -1,0 +1,38 @@
+@media screen and (max-width:950px){
+
+    .box{
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: start;
+        align-items: start;
+    }
+    .box span{
+        font-size: 2rem;
+       
+    }
+    .box p{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 500px){
+
+    .box span{
+        font-size: 1.7rem;
+       
+    }
+    .box p{
+        font-size: .7rem;
+    }
+
+    .form input{
+        font-size: 1rem;
+        width: 100%;
+
+    }
+    .button button{
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
+    }
+}

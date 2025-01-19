@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    width: 100%;
+    background-color: rgb(11, 54, 54);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html{
+     scroll-behavior: smooth;
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+    align-items: center;
+}
+
+.box span{
+    font-size: 4rem;
+    color:aquamarine;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+.box p{
+    font-size: 1.3rem;
+    color: beige;
+    font-style: oblique ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 45%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+    border-radius: .2rem;
+    padding: 1rem 1rem;
+    background-color: rgb(49, 50, 50);
+    box-shadow: 0px 1px 7px 1px  rgb(37, 37, 37);
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+}
+
+.form{
+    display: flex;
+    justify-content: start;
+    border-radius: .4rem;
+    margin-bottom: 1.2rem;
+    padding-top: 1rem;
+}
+.form input{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    border-radius: .2rem;
+    padding: 1.4rem 0;
+    outline: none;
+    color: #d1d1d1;
+    background-color: rgb(49, 50, 50);
+    box-shadow: 0px 1px 2px 1px  rgb(49, 49, 49);
+}
+.form input::placeholder{
+    color: #d1d1d1;
+    opacity: 1;
+}
+.button{
+    display: flex;
+    gap: 1.1rem; 
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent; /* Remove tap highlight */
+   
+}
+.button button{
+    width: 60px;
+    height: 60px;
+    border-radius: .2rem;
+    outline: none;
+    border: none;
+    background-color: rgb(49, 50, 50);
+    box-shadow: 0px 1px 2px 1px  rgb(37, 37, 37);
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    transition: all .2s ease-in-out;
+}
+.button button:hover{
+   background-color: hsl(0, 1%, 29%);
+   transition: all .2s ease-in-out;
+}
+.button button:active{
+    background-color: hsl(0, 1%, 50%);
+}
+
+.txtchar{
+    font-size: .9rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(179, 179, 179);
+}
+.txt{
+    font-size: .9rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:aquamarine;
+}
