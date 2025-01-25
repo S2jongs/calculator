@@ -18,11 +18,11 @@
 @media screen and (max-width: 500px){
 
     .box span{
-        font-size: 1.7rem;
+        display: none;
        
     }
     .box p{
-        font-size: .7rem;
+        display: none;
     }
 
     .form input{
