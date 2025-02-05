@@ -61,7 +61,7 @@ document.getElementById("subtract").addEventListener("click", () => {
 });
 document.getElementById("multiply").addEventListener("click", () => {
     isResultDisplayed = false;
-    appendToDisplay("x");
+    appendToDisplay("*");
 });
 document.getElementById("divide").addEventListener("click", () => {
     isResultDisplayed = false;
@@ -76,7 +76,7 @@ document.getElementById("clear").addEventListener("click", () => {
 
 /* Delete last character */
 document.getElementById("delete").addEventListener("click", () => {
-    updatedisplay(display.value.slice(0, -1));
+   updatedisplay(display.value.slice(0, -1));
 });
 
 /* Calculate (Equal button) */
